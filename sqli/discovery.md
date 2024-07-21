@@ -12,6 +12,19 @@ For example, we have already tested and we know that we have a value for id=18.
 
 so => id=13'+'5  and URL endoce it: id = 13'%2b'5
 
+Entry Point:
+
+     [Nothing]
+    '
+    "
+    `
+    ')
+    ")
+    `)
+    '))
+    "))
+    `))
+
 If it works and the output of parameter id=18 is displayed, you can test other inputs as well
 
 
