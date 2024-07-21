@@ -26,10 +26,10 @@ Type of SQLi:
 
      -Error Based:
     
-      -UNION Based
-      -Error
+       -UNION Based
+       -Error
       
     -Blind:
     
-      -Boolean
-      -Time Based
+       -Boolean
+       -Time Based
