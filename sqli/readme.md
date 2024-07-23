@@ -6,10 +6,6 @@
 
 
 Type of SQLi: 
-
-
-  -MYSQL:
-
   
     -Error Based:
     
@@ -20,16 +16,3 @@ Type of SQLi:
     
       -Boolean
       -Time Based
-      
-
-  -MSSQL:
-
-     -Error Based:
-    
-       -UNION Based
-       -Error
-      
-    -Blind:
-    
-       -Boolean
-       -Time Based
