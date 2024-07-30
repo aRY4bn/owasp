@@ -92,6 +92,8 @@ time delay => --delay=<TIME>
 -bypass WAF:
 
 --tamper 
+
+    sqlmap --list-tamper
  
     $sqlmap -u http://target.tld/product.php?id=12 -p id --tamper=<SCRIPT>
 
