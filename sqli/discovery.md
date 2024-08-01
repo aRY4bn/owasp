@@ -1,3 +1,10 @@
+Automation Tool: 
+
+        paramspider --domain http://target.tld
+
+        
+Manually:
+
 In the process of finding SQL on the desired website, we must look for pages and forums that we must enter, 
 
 or for example, by clicking on an icon or item, a new section will open for us.
