@@ -27,6 +27,6 @@ request header : -> host : target.com/dashboard/user_info
 		
 		
 		
-		
-		
+	*use http:// or https:// , for example : http://sub.target.tld	
+			
 		
